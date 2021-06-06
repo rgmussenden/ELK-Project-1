@@ -46,13 +46,12 @@ Only the RedTeamVM machine can accept connections from the Internet. Access to t
 Machines within the network can only be accessed by 52.170.59.36    
 A summary of the access policies in place can be found in the table below.
 
-| Name       | Publicly Accessible | Allowed I.P. Addresses      |
-|------------|---------------------|-----------------------------|
-| RedTeamVM  | Yes                 | 73.188.170.226              |
-| Web1       | No                  | 52.170.59.36 104.215.112.158|
-| Web2       | No                  | 52.170.59.36 104.215.112.158|
-| ELK-Server | No                  | 10.0.0.5 10.0.0.6.          |          
-|            |                     | 52.170.59.36
+| Name       | Publicly Accessible | Allowed I.P. Addresses         |
+|------------|---------------------|--------------------------------|
+| RedTeamVM  | Yes                 | 73.188.170.226                 |
+| Web1       | No                  | 52.170.59.36 104.215.112.158   |
+| Web2       | No                  | 52.170.59.36 104.215.112.158   |
+| ELK-Server | No                  | 10.0.0.5 10.0.0.6. 52.170.59.36|
 
 
 ### Elk Configuration
